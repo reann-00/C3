@@ -109,7 +109,7 @@
             </div>
         </div>
         <div class="type" id="introduction_phrases">
-            <h2>Introduction</h2>
+            <h2>Introduction Phrases</h2>
             <div class="learning_nugget">
                 <img src="how-are-you.gif">
                 <caption class="english">How are you?</caption>

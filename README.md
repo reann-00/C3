@@ -16,7 +16,7 @@
                 margin-right:auto;
             }
             h1, h2{
-                font-family:cursive, sans-serif;
+                font-family:comic-sans, sans-serif;
             }
             #toc{
                 background-color:#CFF2AC;
@@ -38,7 +38,7 @@
                 line-height: 1.33;
                 letter-spacing: 1.5px;
                 font-variant:lowercase;
-                font-family:cursive, sans-serif;
+                font-family:comic-sans, sans-serif;
                 margin-top:3px;
                 margin-left:3px;
                 font-size:.8rem;
@@ -58,7 +58,7 @@
                 float:left;
                 margin:6px;
                 padding:5px;
-                font-family:cursive;
+                font-family:comic-sans;
                 font-weight:bold;
                 margin-
             }

@@ -87,8 +87,6 @@
                 <li><a href="#introduction_phrases">Introduction Phrases</a></li>
                 <li><a href="#feelings">Feelings</a></li>
                 <li><a href="#weather">Weather</a></li>
-                <!--<li><a href="#five">Five: "Now we're cooking with gas!" or, Drink-Making</a></li>
-                <li><a href="#six">Six: "Addiction," or My Favorite Drinks</a></li>-->
             </ul>
         </div>
         <div class="type" id="greetings">

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>French stuff</title>
+        <title>French</title>
         <style>
             body{
                 /*Color palette: flygon orange(#F2B05E), flygon blue(#62A4B6), black, white, flygon green(#CAF28D), light flygon green(#CFF2AC), flygon eyeball (#B89C1E)*/
@@ -83,11 +83,11 @@
         <div id="toc">
             <h3 id="toc_title">Table of Contents</h3>
             <ul id="toc_ul">
-                <!--<li><a href="#one">One: "Expresso," or What Drinks am I Even Making?</a></li>
-                <li><a href="#two">Two: "Variety is the Spice of Life," or Secondary Terms</a></li>
-                <li><a href="#three">Three: "Numerology," or Coffee Cups and You</a></li>
-                <li><a href="#four">Four: "Yes, Chef!" or, Making Ingredients In-House</a></li>
-                <li><a href="#five">Five: "Now we're cooking with gas!" or, Drink-Making</a></li>
+                <li><a href="#greetings">Greetings</a></li>
+                <li><a href="#introduction_phrases">Introduction Phrases</a></li>
+                <li><a href="#feelings">Feelings</a></li>
+                <li><a href="#weather">Weather</a></li>
+                <!--<li><a href="#five">Five: "Now we're cooking with gas!" or, Drink-Making</a></li>
                 <li><a href="#six">Six: "Addiction," or My Favorite Drinks</a></li>-->
             </ul>
         </div>

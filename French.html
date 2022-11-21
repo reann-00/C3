@@ -81,20 +81,24 @@
                 color:red;
                 font-weight:bold;
             }
-            #unit1_day1 td{
+            #unit1_day1 table#likes_remember td{
                 padding:6px;
                 text-align:center;
                 border-bottom:solid black 1px;
+                font-weight:bold;
             }
             #unit1_day1 #td_left{
                 border-right:solid black 1px;
             }
-            #unit1_day1 table{
+            #unit1_day1 table#likes_remember{
                 width:33%;
                 margin-left:33%;
                 margin-right:33%;
             }
-            #unit1_day1 #sound_cards img{
+            #unit1_day1 table img{
+                width:200px;
+            }
+            .sound_cards img{
                 display:inline-block;
                 border-radius:20px;
                 position:relative;
@@ -121,6 +125,34 @@
             }
             button a:link, a:visited, a:hover, a:active{
                 text-decoration:none;
+            }
+            .kids_and_box table, .kids_and_box td{
+                text-align:center;
+            }
+            #dialogue_foods{
+                display:inline-block;
+                clear:both;
+                border-collapse: collapse;
+            }
+            #dialogue_foods img{
+                width:60px;
+                padding:6px;
+                border:1px solid black;
+                border-radius:5px;
+            }
+            #dialogue_foods figcaption{
+                text-align:center;
+                font-weight:bold;
+            }
+            #dialogue_foods tr{
+                padding:0px;
+                border:0px;
+            }
+            #miraculous_likes_dislikes{
+                width:100%;
+            }
+            #miraculous_activity .dialogue_box{
+                width:100%;
             }
         </style>
     </head>
@@ -384,45 +416,120 @@
                 </div>-->
             </div>
         </div>
-        <div class="lesson" id="unit1_day1">
+        <div class="lesson" class="CE1_2" id="unit1_day1" style="border-bottom:black 1px solid; padding-bottom:15px;">
             <h2><span class="important_word">Today</span>, we will learn about...</h2>
             <h3>Sounds</h3>
-                <div id="sound_cards">
-                    <img id="r_sound" src="r sound.jpg">
-                    <img id="h_sound" src="h sound.jpg">
-                </div>
+            <div class="sound_cards">
+                <img id="r_sound" src="r sound.jpg">
+                <img id="h_sound" src="h sound.jpg">
+             </div>
             <h3>Phrases</h3>
-                <table>
-                    <tr>
-                        <td id="td_left">What is your name?</td>
-                        <td id="td_right">My name is...!</td>
-                    </tr>
-                    <tr>
-                        <td id="td_left">How old are you?</td>
-                        <td id="td_right">I am ... years old!</td>
-                    </tr>
-                </table>
-            <h3>Activity: Pick and Switch!</h3>
-                <p>Choisissez un partenaire. Après choisir, faites le dialogue avec votre partenaire, puis echanger les lettres et refaire.</p>
-                <div class="kids_and_box">
-                    <img id="dialogue_kids" src="dialogue kids.png">
+            <table id="likes_remember">
+                <tr>
+                    <td id="td_left">What is your name? <img src="whats-your-name.gif"></td>
+                    <td id="td_right">My name is ___! <img src="my-name-is.gif"></td>
+                </tr>
+                <tr>
+                    <td id="td_left">What do you like? <img src="what-do-you-like.gif"></td>
+                    <td id="td_right">I like ___. <img src="i-like.gif"></td>
+                </tr>
+                <tr>
+                    <td id="td_left">I do not like ___. <img src="i-dont-like.gif"></td>
+                </tr>
+            </table>
+            <h3>Activity: Pick and Tell!</h3>
+            <table id="dialogue_foods" >
+                <tr>
+                    <td>
+                        <figure>
+                            <figcaption>Apples</figcaption> <img src="apples.jpg">
+                        </figure>
+                    </td>
+                    <td>
+                        <figure>
+                            <figcaption>Turkey</figcaption> <img src="turkey.jpg">
+                        </figure>
+                    </td>
+                    <td>
+                        <figure>
+                            <figcaption>Cheese</figcaption> <img src="cheese.jpg">
+                        </figure>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <figure>
+                            <figcaption>Bananas</figcaption> <img src="bananas.jpg">
+                        </figure>
+                    </td>
+                    <td>
+                        <figure>
+                            <figcaption>Fish</figcaption> <img src="fish.jpg">
+                        </figure>
+                    </td>
+                    <td>
+                        <figure>
+                            <figcaption>Pickles</figcaption> <img src="pickles.jpg">
+                        </figure>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <figure>
+                            <figcaption>Pasta</figcaption> <img src="pasta.jpg">
+                        </figure>
+                    </td>
+                    <td>
+                        <figure>
+                            <figcaption>Onions</figcaption> <img src="onions.jpg">
+                        </figure>
+                    </td>
+                    <td>
+                        <figure>
+                            <figcaption>Candy</figcaption> <img src="candy.jpg">
+                        </figure>
+                    </td>
+                </tr>
+            </table>
+            <div class="kids_and_box">
+                <p>Choisissez un partenaire et identifiez les aliments que vous aimez et ceux vous n'aimez pas. Ensuite, faites le dialogue avec votre partenaire.</p>
+                <img id="dialogue_kids" src="dialogue kids.png">
                     <p class="dialogue_box">
                         <span class="dialogue_a">A: Hello, what is your name?</span><br>
                         <span class="dialogue_b">B: Hi, my name is ___. What is your name?</span><br>
-                        <span class="dialogue_a">A: My name is ___. How old are you?</span><br>
-                        <span class="dialogue_b">B: I am ___ years old. How old are you?</span><br>
-                        <span class="dialogue_a">A: I am ___ years old. Goodbye!</span><br>
+                        <span class="dialogue_a">A: My name is ___. What do you like?</span><br>
+                        <span class="dialogue_b">B: I like ___. I do not like ___. What do you like?</span><br>
+                        <span class="dialogue_a">A: I like ___. I do not like ___. Goodbye!</span><br>
                         <span class="dialogue_b">B: Bye!</span>
                     </p>
+            </div>
+            <div id="miraculous_activity">
+                <h3>More time...?</h3>
+                <p>Plus de temps, plus de mots! Identifiez ce que les personnages aiment et ce qu'ils n'aiment pas en utilisant ces phrases.</p>
+                <div class="dialogue_box">
+                    <span class="dialogue_a">She likes ___. She does not like ___.</span>
+                    <span class="dialogue_b">He likes ___. He does not like ___.</span>
                 </div>
-            <h3>More time...?</h3>
-                <p>Plus de temps, plus de mots! Presenter votre partenaire à la classe en anglais.</p>
-                <p class="dialogue_box">
-                    <span class="dialogue_a">A: Her name is ___.</span><br>
-                    <span class="dialogue_b">B: His name is ___.</span><br>
-                    <span class="dialogue_a">A: She is ___ years old.</span><br>
-                    <span class="dialogue_b">B: He is ___ years old.</span><br>
-                </p>
+                <div>
+                    <img id="miraculous_likes_dislikes" src="miraculous likes dislikes.png">
+                </div>
+            </div>
+        </div>
+        <div class="lesson" class="CE1_2" id="day2" style="border-bottom:black 1px solid; padding-bottom:15px;">
+            <h2><span class="important_word">Today</span>, we will learn about...</h2>
+            <h2 style="color:rgb(82, 41, 5); font-size:40px; text-align:center;">🦃 THANKSGIVING! 🦃</h2>
+            <h3>Sounds</h3>
+            <div class="sound_cards">
+                <img id="th_sound" src="th sound.jpg">
+             </div>
+             <!--PLACE SOME BASIC THANKSGIVING LORE HERE :)-->
+             <h3>Activity: Hand Turkey</h3>
+             <p>Today, we will make Hand Turkeys. Dessinez et découpez votre hand turkey. Ensuite, écrivez votre nom en bas. Finalement, sur les plumes, écrivez deux choses que vous aimez et deux choses que vous n'aimez pas <b>(en anglais!)</b>.</p>
+             <!--WHITE SPACE FOR HAND TURKEY? OR JUST A PIC. THEN ADD INSTRUCTIONS FOR THE BACK.-->
+        </div>
+        <div class="lesson" class="CE1_2" id="day3" style="border-bottom:black 1px solid; padding-bottom:15px;">
+            <h2><span class="important_word">Today</span>, we will learn about...</h2>
+            <!--FIRST, HAVE THEM PRESENT THEIR TURKEYS. THEN, WE WILL LEARN ABOUT FAMILY INTRO PHRASES. WORK ON THAT FOR A WHILE, BULDING ON DESCRIPTIVE WORDS!-->
         </div>
     </body>
 </html>
